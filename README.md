@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Management Concepts
 
-# Run and deploy your AI Studio app
+A premium learning platform dedicated to mastering management, leadership, and organizational excellence.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/9610fa1c-5bb2-4405-ac9d-ba50a6757ecb
+- **Expert-led Courses**: Learn from world-class industry experts.
+- **Strategic Leadership**: Master the art of strategy and decision-making.
+- **Enterprise Solutions**: Tailored learning for organizations.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- Node.js (v18+)
+- npm
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Project Structure
+
+- `src/App.tsx`: Main application component.
+- `src/data/courses.ts`: Course data and categories.
+- `src/lib/utils.ts`: Utility functions.
